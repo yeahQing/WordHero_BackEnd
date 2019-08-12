@@ -2,6 +2,10 @@
 
 # 技术栈
 
-- Servle + Jsp + Ajax
-- Html + css + js
+- Servlet + Jsp 
+- Html + css + js + Ajax
 - Mysql
+
+# 设计模式
+
+工厂模式
