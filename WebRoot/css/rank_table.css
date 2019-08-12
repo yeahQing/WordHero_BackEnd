@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.rank_table{
+	width:450px;
+	height:400px;
+    margin: 0px 128px;
+    background-color: #fff;
+}
+
+.outer-container,.table_content {
+    width: 550px; height: 400px;
+}
+
+.outer-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.inner-container {
+    position: absolute; 
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.inner-container::-webkit-scrollbar {
+    display: none;
+}
+
+.list_title{
+	height:50px;
+	background-color:#F8F9FA;
+	text-align:left;
+	padding-left:20px;
+	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	font-size:16px;
+}
+
+.table_main_style {
+	margin-top: 0px;
+	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+}
+
+.table_main_style th{
+	background-color:#ffffff;
+	height:25px;
+	line-height:40px;
+	text-align:center;
+	border-bottom:1px solid #DEE2E6;
+	border-top:1px solid #DEE2E6;
+	font-size:14px;
+	
+}
+
+.table_main_style td{
+	background-color:#ffffff;
+	height:25px;
+	line-height:40px;
+	text-align:center;
+	border-bottom:1px solid #DEE2E6;
+	font-size:14px;
+}

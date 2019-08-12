@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link href="css/animation.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/main.js"></script>
+</head> 
+<body onload="getUserData()">
+
+    
+    <div class="game_filed">
+        <div style="width:800px;height:50px;padding-top: 5px;">
+            <h2 class="title-text"><span>欢迎您!<label id="username"></label></span></h2>
+        </div>
+        <div class="score_table">
+            目前积分:<label id="score"></label>
+            单词难度:<label id="word_level"></label>
+        </div>
+    
+        <div class="start" id="button_animation">
+            <div id="input_container"><input  id="input_animation" type="button" class="button_style start_style" onclick="window.location.href='game.html'" value="开始游戏" /></div>
+            <div id="input_container"><input  id="input_animation" type="button" class="button_style start_style" onclick="window.location.href='changeLib.html'" value="切换题库" /></div>
+            <div id="input_container"><input  id="input_animation" type="button" class="button_style start_style" onclick="window.location.href='user_setting.html'" value="个人设置" /></div>
+            <div id="input_container"><input  id="input_animation" type="button" class="button_style start_style" onclick="window.location.href='login.html'" value="退出游戏" /></div>
+        </div>
+
+    </div>
+   
+
+</body>
+
+</html>

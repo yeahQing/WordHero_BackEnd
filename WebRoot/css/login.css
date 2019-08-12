@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+html{margin: 0px;padding: 0px;}
+body{margin: 0px;padding: 0px;}
+.container{
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+	background:#bbb;
+}
+.header{
+	height:50px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	left:0px;
+	background:#F4F7FC;
+}
+
+.content{
+	position:absolute;
+	top:50px;
+	right:0px;
+	bottom:50px;
+	left:0px;
+	background:#F4F7FC;
+}
+
+.footer{
+	height:50px;
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	left:0px;
+	background:#F4F7FC;
+	text-align:center;
+}
+
+.login_container{
+    height:630px;
+    position:relative;
+}
+
+ .login_main{
+    width:380px;
+    height:500px;
+    border-radius:5px;
+    border:1px solid #efefef;
+    margin: auto;  
+    position: absolute;  
+    top: 0; left: 0; bottom: 0; right: 0; 
+    background-color: #fff;
+}
+
+.input-group{
+    position: relative;
+    width: 560px;
+    margin:40px auto;
+}
+
+.input-group input{
+    width: 315px;
+    height: 40px;
+    border-radius: 3px;
+    border:1px solid #e7e7e7;
+    padding-left: 35px;
+    margin-left:15px;
+}
+
+.input-group input:focus{
+    outline: none;
+    border:1px solid #BBDFFB;
+}
+
+.login_button{
+ 	background-color:#0077CC;
+    border:0px;
+    display: block;
+    margin: 0px auto;
+    width: 350px;
+    height: 45px;
+    border-radius: 3px;
+    color: #fff;  
+    cursor:pointer;	
+    font-weight:bold;
+    font-size:16px;
+}
+
+.login_button:hover{
+ 	background-color:#006BB8;	
+    box-shadow:1px 1px 1px #888888;
+}
+
+.info{
+	text-align:center;	
+	margin:0px auto;
+	display:block;
+	width:80px;
+	height:50px;
+	border-bottom:1px solid #eee;
+	line-height:50px;
+	font-weight:bold;
+	font-size:14px;
+	color:#555;
+}
+
+.info a{
+	color: #0077CC;
+    text-decoration: none;
+    
+}
+
+.title{
+	height:100px;
+	text-align:center;
+	color: #555;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+
+
+.icon{
+	display: inline-block;
+    width: 30px;
+    height: 40px;
+    left: 13px;
+    position: absolute;
+    background-repeat: no-repeat; 
+    background-position: 10px 10px;
+    background-size: 20px 20px;
+}
+
+.icon-user{ 
+    background-image: url(../image/user.png); 
+}
+
+.icon-password{
+    background-image: url(../image/password.png);
+}
